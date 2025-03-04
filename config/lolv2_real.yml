@@ -1,0 +1,25 @@
+
+dataset: LOLv2
+
+#### datasets
+datasets:
+  train:
+    dist: False
+    root: ./dataset/LOL-v2
+    use_shuffle: true
+    n_workers: 8  
+    batch_size: 16
+    use_flip: true
+    use_crop: true
+    patch_size: 96
+    sub_data: Real_captured
+
+  val:
+    dist: False
+    root: ./dataset/LOL-v2
+    n_workers: 1
+    batch_size: 1 
+    sub_data: Real_captured
+
+
+

@@ -1,0 +1,87 @@
+{
+    "name": "lolv2_train_real",
+    "phase": "train",
+    "distill": true,
+    "CD":false,
+    "gpu_ids": [
+        0
+    ],
+
+    "path": {
+        "log": "logs",
+        "tb_logger": "tb_logger",
+        "results": "results",
+        "checkpoint": "checkpoints", 
+        "resume_state": "./checkpoint/lolv2_real_4step_gen.pth"
+    },
+    "model": {
+        "which_model_G": "ddpm",
+        "finetune_norm": false,
+        "unet": {
+            "in_channel": 6,
+            "out_channel": 3,
+            "inner_channel": 64,
+            "channel_multiplier": [
+                1,
+                1,
+                2,
+                2,
+                4
+            ],
+            "attn_res": [
+                16
+            ],
+            "res_blocks": 2,
+            "dropout": 0
+        },
+        "beta_schedule": {
+            "train": {
+                "schedule": "linear",
+                "n_timestep": 513,
+                "linear_start": 1e-4,
+                "linear_end": 2e-2,
+                "reflow": false,
+                "time_scale": 1
+            },
+            "val": {
+                "schedule": "linear",
+
+                "n_timestep": 513,
+                "linear_start": 1e-4,
+                "linear_end": 2e-2,
+                "time_scale": 1
+            }
+        },
+        "diffusion": {
+            "image_size": 128,
+            "channels": 6, 
+            "conditional": true,
+            "w_gt": 0.1,
+            "w_snr": 0.5,
+            "w_str": 0.1,
+            "w_lpips": 0.2
+            
+        }
+    },
+    "train": {
+        "n_iter": 5000,
+        "val_freq": 100,
+        "save_checkpoint_freq": 100,
+        "print_freq": 100,
+        "optimizer": {
+            "type": "adam",
+            "lr": 1e-4,
+            "lr_policy":"linear",
+            "lr_decay_iters":3000,
+            "n_lr_iters": 2000
+        },
+        "ema_scheduler": {
+            "step_start_ema": 5000,
+            "update_ema_every": 1,
+            "ema_decay": 0.9999
+        }
+    },
+    "wandb": {
+        "project": "llie_ddpm"
+    }
+}
