@@ -1,5 +1,5 @@
 
-<h2 align="center"> Efficient Diffusion as Low Light Enhancer</h2>
+<h2 align="center"> Efficient Diffusion as Low Light Enhancer (CVPR 2025)</h2>
 
 
 
