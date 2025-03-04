@@ -66,7 +66,7 @@ Then, put them in the following folder:
 
 Note: Following LLFlow and KinD, we have also adjusted the brightness of the output image produced by the network, based on the average value of Ground Truth (GT). ``It should be noted that this adjustment process does not influence the texture details generated; it is merely a straightforward method to regulate the overall illumination.`` Moreover, it can be easily adjusted according to user preferences in practical applications.
 
-You can also refer to the following links to download the [pretrained model](https://drive.google.com/drive/folders/1XUU26LJivbl9pfx1XlFI4Uf7Oi4bTqqo?usp=sharing) and put it in the following folder:
+You can also refer to the following links to download the [Checkpoints] (https://drive.google.com/drive/folders/1XUU26LJivbl9pfx1XlFI4Uf7Oi4bTqqo?usp=sharing) and put it in the following folder:
 
 ```
 ├── checkpoints
