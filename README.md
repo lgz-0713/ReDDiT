@@ -1,5 +1,5 @@
 
-<h2 align="center"> Efficient Diffusion as Low Light Enhancer (CVPR 2025)</h2>
+<h2 align="center"> [CVPR2025] Efficient Diffusion as Low Light Enhancer</h2>
 
 
 
@@ -120,6 +120,20 @@ You can use any one of these three pre-trained models, and employ different samp
 ```
 bash train.sh
 ```
+
+<a name="citation_and_acknowledgement"></a>
+## :black_nib: Citation
+
+   If you find our repo useful for your research, please consider citing our paper:
+
+   ```bibtex
+    @InProceedings{lan2024towards,
+    title={Towards Flexible and Efficient Diffusion Low Light Enhancer},
+    author={Lan, Guanzhou and Ma, Qianli and Yang, Yuqi and Wang, Zhigang and Wang, Dong and Li, Xuelong and Zhao, Bin},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year={2025}
+    }
+   ```
 
 
 ## Acknowledgement
