@@ -3,7 +3,7 @@
 
 
 
-## Get Started
+## :hammer: Get Started
 
 ### Dependencies and Installation
 
@@ -136,6 +136,6 @@ bash train.sh
    ```
 
 
-## Acknowledgement
+## :hugs: Acknowledgement
 
 Our code is built upon [SR3](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement). Thanks to the contributors for their great work.
