@@ -1,7 +1,7 @@
 
 <h2 align="center"> [CVPR2025] Efficient Diffusion as Low Light Enhancer</h2>
 
-[Paper] (https://arxiv.org/abs/2410.12346) 
+[Paper](https://arxiv.org/abs/2410.12346) 
 
 ## :hammer: Get Started
 
