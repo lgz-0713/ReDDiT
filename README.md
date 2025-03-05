@@ -1,11 +1,31 @@
 
-<h2 align="center"> [CVPR2025] Efficient Diffusion as Low Light Enhancer</h2>
 
-[Paper](https://arxiv.org/abs/2410.12346) 
+<div align=center>
+  
+# **[CVPR2025]** Efficient Diffusion as Low Light Enhancer
+
+<p>
+<a href='https://arxiv.org/abs/2410.12346'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
+<a href='https://ReDDiT.github.io/ReDDiT/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
+</p>
+
+</div>
+
+## :fire: News
+
+- [2025/03/04] We have released the training code and inference code! 🚀🚀
+- [2025/02/27] ReDDiT has been accepted to CVPR 2025! 🤗🤗
+
+## :memo: TODO
+
+- [x] Training code
+- [x] Inference code
+- [ ] CVPR Camera-ready Version
+- [ ] Project page
 
 ## :hammer: Get Started
 
-### Dependencies and Installation
+### :mag: Dependencies and Installation
 
 - Python 3.8
 - Pytorch 1.11
@@ -30,7 +50,7 @@ cd ReDDiT
 pip install -r requirements.txt
 ```
 
-### Data Preparation
+### :page_with_curl: Data Preparation
 
 You can refer to the following links to download the datasets.
 
@@ -62,7 +82,7 @@ Then, put them in the following folder:
 
 </details>
 
-### Testing
+### :blue_book: Testing
 
 Note: Following LLFlow and KinD, we have also adjusted the brightness of the output image produced by the network, based on the average value of Ground Truth (GT). ``It should be noted that this adjustment process does not influence the texture details generated; it is merely a straightforward method to regulate the overall illumination.`` Moreover, it can be easily adjusted according to user preferences in practical applications.
 
@@ -105,7 +125,7 @@ To test the model using the ``sh test.sh`` command and modify the `n_timestep` a
                 "time_scale": 256
 }
 ```
-### Testing on unpaired data
+### :blue_book: Testing on unpaired data
 
 ```
 python test_unpaired.py  --config config/test_unpaired.json --input unpaired_image_folder
@@ -115,7 +135,7 @@ You can use any one of these three pre-trained models, and employ different samp
 
 
 
-### Training
+### :rocket: Training
 
 ```
 bash train.sh
@@ -136,6 +156,6 @@ bash train.sh
    ```
 
 
-## :hugs: Acknowledgement
+## :heart: Acknowledgement
 
 Our code is built upon [SR3](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement). Thanks to the contributors for their great work.
