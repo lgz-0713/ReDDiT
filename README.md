@@ -148,7 +148,7 @@ bash train.sh
 
    ```bibtex
     @InProceedings{lan2024towards,
-    title={Towards Flexible and Efficient Diffusion Low Light Enhancer},
+    title={Efficient Diffusion as Low Light Enhancer},
     author={Lan, Guanzhou and Ma, Qianli and Yang, Yuqi and Wang, Zhigang and Wang, Dong and Li, Xuelong and Zhao, Bin},
     booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
     year={2025}
