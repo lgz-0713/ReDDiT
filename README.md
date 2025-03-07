@@ -6,7 +6,7 @@
 
 <p>
 <a href='https://arxiv.org/abs/2410.12346'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
-<a href='https://ReDDiT.github.io/ReDDiT/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
+<a href='https://mqleet.github.io/ReDDiT_Project/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
 </p>
 
 </div>
