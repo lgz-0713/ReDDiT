@@ -20,7 +20,7 @@
 
 - [x] Training code
 - [x] Inference code
-- [ ] CVPR Camera-ready Version
+- [x] CVPR Camera-ready Version
 - [x] Project page
 
 ## :hammer: Get Started
