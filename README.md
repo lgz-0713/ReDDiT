@@ -22,8 +22,7 @@
 - [x] Inference code
 - [x] CVPR Camera-ready Version
 - [x] Project page
-- [ ] Journal Version
-- [ ] Teacher Model Checkpoints (Will be released along with the journal version)
+- [ ] Journal Version & Teacher Model 
 
 ## :hammer: Get Started
 
