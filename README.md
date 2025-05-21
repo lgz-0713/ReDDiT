@@ -87,7 +87,7 @@ Then, put them in the following folder:
 
 Note: Following LLFlow and KinD, we have also adjusted the brightness of the output image produced by the network, based on the average value of Ground Truth (GT). ``It should be noted that this adjustment process does not influence the texture details generated; it is merely a straightforward method to regulate the overall illumination.`` Moreover, it can be easily adjusted according to user preferences in practical applications.
 
-You can also refer to the following links to download the [Checkpoints](https://drive.google.com/file/d/13_XM8nFxJc2IfUotC2_lJo9ATt0rcIyg/view?usp=sharing) and put it in the following folder:
+You can also refer to the following links to download the checkpoints from [Google Drive](https://drive.google.com/file/d/13_XM8nFxJc2IfUotC2_lJo9ATt0rcIyg/view?usp=sharing) or [百度网盘 (Baidu Netdisk)](https://pan.baidu.com/s/1J7MP33Ws5kE673F-8zc2RA?pwd=nj8b) and put it in the following folder:
 
 ```
 ├── checkpoints
