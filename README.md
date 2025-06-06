@@ -148,11 +148,13 @@ bash train.sh
    If you find our repo useful for your research, please consider citing our paper:
 
    ```bibtex
-    @InProceedings{lan2024towards,
-    title={Efficient Diffusion as Low Light Enhancer},
-    author={Lan, Guanzhou and Ma, Qianli and Yang, Yuqi and Wang, Zhigang and Wang, Dong and Li, Xuelong and Zhao, Bin},
-    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-    year={2025}
+    @InProceedings{Lan_2025_CVPR,
+        author    = {Lan, Guanzhou and Ma, Qianli and Yang, Yuqi and Wang, Zhigang and Wang, Dong and Li, Xuelong and Zhao, Bin},
+        title     = {Efficient Diffusion as Low Light Enhancer},
+        booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+        month     = {June},
+        year      = {2025},
+        pages     = {21277-21286}
     }
    ```
 
